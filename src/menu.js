@@ -1,16 +1,15 @@
 import carbonaraImg from "./images/carbonara.png";
 import pepeImg from "./images/pepe.png";
 import tralaImg from "./images/tralarelo.png";
-import tungImg from "./images/tung.png";
 import olioImg from "./images/olio.png";
-
+import arrabiataImg from "./images/arrabiata.png";
 export default function menuPage() {
   const carbonara = createMenuElement(
     carbonaraImg,
     "Carbonara",
     "Fatty cured pork, hard cheese, eggs, salt, and black pepper"
   );
-  const trala = createMenuElement(tralaImg, "Tralarelo", "Italian Brainrot");
+  const trala = createMenuElement(tralaImg, "Tralalero", "Italian Brainrot");
   const pepe = createMenuElement(
     pepeImg,
     "Cacio e pepe",
@@ -18,9 +17,9 @@ export default function menuPage() {
   );
 
   const tung = createMenuElement(
-    tungImg,
-    "Tung tung Sahur",
-    "Italian Brainrot"
+    arrabiataImg,
+    "Arrabiata",
+    "made with tomatoes, garlic, peperoncino, parsley, and extra virgin olive oil"
   );
 
   const olio = createMenuElement(

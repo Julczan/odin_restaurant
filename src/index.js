@@ -12,7 +12,7 @@ homeBtn.addEventListener("click", () => homeContent());
 menuBtn.addEventListener("click", () => menuContent());
 contactBtn.addEventListener("click", () => contactContent());
 
-contactPage();
+homePage();
 
 function homeContent() {
   content.textContent = "";

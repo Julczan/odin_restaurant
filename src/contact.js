@@ -1,6 +1,3 @@
-import phoneIcon from "./images/phone.png";
-import locationIcon from "./images/location.png";
-
 export default function contactPage() {
   const content = document.querySelector("#content");
   const contactDiv = createContactDiv("Contact us:", "+123123123");
