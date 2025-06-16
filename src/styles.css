@@ -77,6 +77,7 @@ h6 {
 :root {
   --background-light: rgba(0, 0, 0, 0.6);
   --text-color: rgb(233, 233, 233);
+  --background-dark: rgba(0, 0, 0, 0.9);
 }
 
 body {
@@ -114,8 +115,6 @@ button {
 }
 
 #content {
-  width: 800px;
-  height: 600px;
   background-color: var(--background-light);
   align-self: center;
   color: var(--text-color);
@@ -130,4 +129,29 @@ button {
 img {
   width: 300px;
   border-radius: 200px;
+}
+
+.menu-item {
+  width: 200px;
+  height: 300px;
+  justify-self: center;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  background-color: var(--background-dark);
+}
+
+.menu-text {
+  font-size: 1rem;
+}
+
+.item-img {
+  width: 150px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  gap: 40px;
+  padding: 60px;
 }
