@@ -25,7 +25,7 @@ export default function menuPage() {
 
   const olio = createMenuElement(
     olioImg,
-    "Spaghetti aglio e olio",
+    "Aglio e olio",
     "This iconic pasta is a classic example of cucina povera, making the most of simple ingredients."
   );
 
