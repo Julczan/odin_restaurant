@@ -81,7 +81,7 @@ h6 {
 }
 
 body {
-  background: url("./background.jpg");
+  background: url("./images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
   display: grid;
@@ -115,6 +115,7 @@ button {
 }
 
 #content {
+  width: 600px;
   background-color: var(--background-light);
   align-self: center;
   color: var(--text-color);

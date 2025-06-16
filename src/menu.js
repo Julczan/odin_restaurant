@@ -1,6 +1,8 @@
-import carbonaraImg from "./carbonara.png";
-import pepeImg from "./pepe.png";
-import tralaImg from "./tralarelo.png";
+import carbonaraImg from "./images/carbonara.png";
+import pepeImg from "./images/pepe.png";
+import tralaImg from "./images/tralarelo.png";
+import tungImg from "./images/tung.png";
+import olioImg from "./images/olio.png";
 
 export default function menuPage() {
   const carbonara = createMenuElement(
@@ -8,11 +10,23 @@ export default function menuPage() {
     "Carbonara",
     "Fatty cured pork, hard cheese, eggs, salt, and black pepper"
   );
-  const brainrot = createMenuElement(tralaImg, "Tralarelo", "Italian Brainrot");
+  const trala = createMenuElement(tralaImg, "Tralarelo", "Italian Brainrot");
   const pepe = createMenuElement(
     pepeImg,
     "Cacio e pepe",
     "The dish contains grated pecorino romano and black pepper with tonnarelli or spaghetti"
+  );
+
+  const tung = createMenuElement(
+    tungImg,
+    "Tung tung Sahur",
+    "Italian Brainrot"
+  );
+
+  const olio = createMenuElement(
+    olioImg,
+    "Spaghetti aglio e olio",
+    "This iconic pasta is a classic example of cucina povera, making the most of simple ingredients."
   );
 
   const content = document.querySelector("#content");
@@ -21,8 +35,10 @@ export default function menuPage() {
   menuContainer.classList.add("menu-container");
 
   menuContainer.appendChild(carbonara);
-  menuContainer.appendChild(brainrot);
+  menuContainer.appendChild(trala);
   menuContainer.appendChild(pepe);
+  menuContainer.appendChild(tung);
+  menuContainer.appendChild(olio);
   content.appendChild(menuContainer);
 }
 
